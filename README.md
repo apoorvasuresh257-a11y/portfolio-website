@@ -6,7 +6,7 @@ Welcome to my portfolio website repository.
 
 ## 👩‍💻 About Me
 - 🎓 BE CSE Student
-- 🩰 Post Vidwath Bharatanatyam Dancer
+- 🩰 Bharatanatyam Dancer
 - 🌱 Learning Web Development
 
 ## 🛠️ Technologies
