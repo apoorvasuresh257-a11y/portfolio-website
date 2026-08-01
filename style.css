@@ -89,21 +89,6 @@ header{
     max-width:550px;
 }
 
-.hero-image{
-    flex:1;
-    display:flex;
-    justify-content:center;
-}
-
-.hero-image img{
-    width:320px;
-    height:320px;
-    object-fit:cover;
-    border-radius:50%;
-    border:6px solid #2563eb;
-    box-shadow:0 10px 30px rgba(0,0,0,.2);
-}
-
 .buttons{
     margin-top:25px;
 }
