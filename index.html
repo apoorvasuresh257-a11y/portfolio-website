@@ -5,112 +5,345 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apoorva M S | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 
 <body>
 
-    <h1>Apoorva M S</h1>
+    <!-- ================= NAVBAR ================= -->
 
-    <h2>BE CSE Student | Learning Web Development</h2>
+    <header>
 
-    <hr>
+        <nav class="navbar">
 
-    <h2>About Me</h2>
+            <div class="logo">
 
-    <p>
-        Hello! I'm Apoorva M S, a Computer Science Engineering student with a
-        strong interest in web development and software development.
-        I have a solid foundation in C, Java, and Python, along with hands-on
-        experience in academic projects. I enjoy building user-friendly websites,
-        solving programming problems, and continuously learning new technologies
-        to improve my technical skills.
-    </p>
+                Apoorva M S
 
-    <hr>
+            </div>
 
-    <h2>Education</h2>
+            <ul class="nav-links">
 
-    <ul>
-        <li>
-            <h3>Bachelor of Engineering (Computer Science and Engineering)</h3>
+                <li><a href="#home">Home</a></li>
 
-            <p>Sri Jayachamarajendra College of Engineering (SJCE), Mysuru</p>
+                <li><a href="#about">About</a></li>
 
-            <p><strong>Duration:</strong> 2023 – 2027</p>
+                <li><a href="#education">Education</a></li>
 
-            <p><strong>Relevant Coursework:</strong></p>
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Apoorva M S</h1>
+
+            <h2>Computer Science Engineering Student</h2>
+
+            <p>
+
+                Passionate about Web Development, Software Engineering
+                and continuously learning modern technologies.
+
+            </p>
+
+            <div class="buttons">
+
+                <a href="#projects" class="btn">View Projects</a>
+
+                <a href="documents/Resume.pdf" class="btn btn-outline" target="_blank">
+
+                    Download Resume
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/profile.jpg" alt="Profile">
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <div class="card">
+
+            <p>
+
+                I'm Apoorva M S, a Computer Science Engineering student with
+                a strong interest in Web Development and Software Engineering.
+
+                I enjoy building clean, responsive and user-friendly websites
+                while continuously improving my programming and problem-solving skills.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="card">
+
+            <h3>Bachelor of Engineering</h3>
+
+            <p>
+
+                Computer Science & Engineering
+
+            </p>
+
+            <p>
+
+                Sri Jayachamarajendra College of Engineering, Mysuru
+
+            </p>
+
+            <p>
+
+                2023 – 2027
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Higher Secondary Education</h3>
+
+            <p>
+
+                Vijaya Vittala PU College, Mysuru
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-html5"></i>
+
+                <h3>HTML</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-css3-alt"></i>
+
+                <h3>CSS</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-js"></i>
+
+                <h3>JavaScript</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-database"></i>
+
+                <h3>MySQL</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>C</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-java"></i>
+
+                <h3>Java</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-python"></i>
+
+                <h3>Python</h3>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-brands fa-github"></i>
+
+                <h3>Git & GitHub</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+
+                    Personal responsive portfolio website built using
+                    HTML, CSS and JavaScript.
+
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>More Projects Coming Soon...</h3>
+
+                <p>
+
+                    This section will be updated as I complete
+                    more web development projects.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section>
+
+        <h2>Certifications</h2>
+
+        <div class="card">
 
             <ul>
-                <li>Data Structures and Algorithms</li>
-                <li>Object-Oriented Programming</li>
-                <li>Operating Systems</li>
-                <li>Database Management Systems</li>
-                <li>Computer Networks</li>
+
+                <li>Post Vidwath – Bharatanatyam</li>
+
+                <li>More certifications will be added here.</li>
+
             </ul>
-        </li>
 
-        <br>
+        </div>
 
-        <li>
-            <h3>Higher Secondary Education (Class XII)</h3>
+    </section>
 
-            <p>Vijaya Vittala Pre-University College (VVPU), Mysuru</p>
-        </li>
-    </ul>
+    <!-- ================= CONTACT ================= -->
 
-    <hr>
+    <section id="contact">
 
-    <h2>Skills</h2>
+        <h2>Contact</h2>
 
-    <h3>Technical Skills</h3>
+        <div class="contact">
 
-    <ul>
-        <li>C</li>
-        <li>Java</li>
-        <li>Python</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>MySQL</li>
-    </ul>
+            <p>
 
-    <h3>Core Knowledge</h3>
+                <i class="fa-solid fa-envelope"></i>
 
-    <ul>
-        <li>Data Structures and Algorithms</li>
-        <li>Database Management Systems</li>
-        <li>Operating Systems</li>
-        <li>Computer Networks</li>
-    </ul>
+                yourmail@gmail.com
 
-    <h3>Soft Skills</h3>
+            </p>
 
-    <ul>
-        <li>Problem Solving</li>
-        <li>Teamwork</li>
-        <li>Communication</li>
-        <li>Time Management</li>
-    </ul>
+            <p>
 
-    <h3>Additional Skills</h3>
+                <i class="fa-brands fa-github"></i>
 
-    <ul>
-        <li>Event Coordination</li>
-        <li>Stage Performance</li>
-        <li>Creativity</li>
-    </ul>
+                github.com/apoorvasuresh257-a11y
 
-    <hr>
+            </p>
 
-    <h2>Beyond Coding</h2>
+            <p>
 
-    <p>
-        Outside of technology, I have completed <strong>Post Vidwath</strong> in
-        Bharatanatyam. My journey in classical dance has taught me discipline,
-        dedication, creativity, confidence, and perseverance, which I bring into
-        my academic and technical work.
-    </p>
+                <i class="fa-brands fa-linkedin"></i>
+
+                LinkedIn Profile
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Apoorva M S | Built with ❤️ using HTML, CSS & JavaScript
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
